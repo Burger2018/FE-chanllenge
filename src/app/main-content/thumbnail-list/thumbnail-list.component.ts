@@ -1,7 +1,7 @@
 import { Component, OnInit, Renderer2, ElementRef, ViewChild } from '@angular/core';
 import { AngularFireStorage } from 'angularfire2/storage';
 import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
-import * as $ from 'jquery';
+
 @Component({
   selector: 'app-thumbnail-list',
   templateUrl: './thumbnail-list.component.html',
